@@ -1,0 +1,7 @@
+---
+cli_version: 0.4.16
+name: sendgrid-ruby-template
+runtime: ruby:2.5.3
+test_command: rspec
+abort_build_when_tests_fail: true
+abort_deploy_when_tests_fail: true

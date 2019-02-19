@@ -1,0 +1,126 @@
+--xYzZY
+Content-Disposition: form-data; name="headers"
+
+Received: by mx0058p1mdw1.sendgrid.net with SMTP id aefCuuPzFe Sat, 16 Feb 2019 15:19:21 +0000 (UTC)
+Received: from mail-qt1-f180.google.com (mail-qt1-f180.google.com [209.85.160.180]) by mx0058p1mdw1.sendgrid.net (Postfix) with ESMTPS id 3AC323E16E7 for <test@hutzbot-development.rangefindr.ca>; Sat, 16 Feb 2019 15:19:21 +0000 (UTC)
+Received: by mail-qt1-f180.google.com with SMTP id b8so14366812qtr.9 for <test@hutzbot-development.rangefindr.ca>; Sat, 16 Feb 2019 07:19:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025; h=from:mime-version:subject:date:references:to:in-reply-to:message-id; bh=XveDBvPpBs/HkclP4xHUHLmSIzky9KLO/C31/W1jaFs=; b=qPXbim8L8q7yE4JMseisJNxsxSgsAroJOIgHpsdvNv1/OUIgVF6ErZgOb9VAdrNfe4 /2e2eDCp5ubl8w2tVBZSqOfWdFl4vKmNVq0bIKyitjrt4dhK/GO6YEJncKpxH82Oegg/ bSlL73IyiVhWCIsQs+ePWY4/m7KyeD4l6MSVWXnbYmW1pXBH9T0mSzNqME82wgEpVdP9 5P+pa3jsskk/3Ayq38Nm2E21yC0OuD/GZ5QNbcpZd8pdpibPv6ELCcL0U3cjULwodxlI 8fZzPmtpQgq6MWNIvaoXPZvX6kIrQEDaZCAgUnpr4/7ZiXjdBeQbRdEyH/z4Dr1Dj3SF 182w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20161025; h=x-gm-message-state:from:mime-version:subject:date:references:to :in-reply-to:message-id; bh=XveDBvPpBs/HkclP4xHUHLmSIzky9KLO/C31/W1jaFs=; b=lGg/I9gkk1aOQz41ynVyzw7l0ufAmzHUBFD+A+Td5HXy+WyMu1Gkbrme+MWRLct+SK GLYVy0qK3+DvtLoZFZp7ysaKNfUXeC+cB/8qI2KV/bT1ol/s3IuOhctb7mwng0b1lJvK ydGwDW64J3SsomPok1aPNH69tRvBO8k8c95lRnd16ZHBY82SV29jj/dKORBc//QiJb+K Zq/dXQOpHsds67SAZkWyLP+yC8DzIxMYK9A8bEukdO6YFKdiaCJV8QFQtGROgp49XAqG +aJxWgrARizzHXMNcrP658S2ufSUKIeb/AImeAlXE12JxAjyIz7MbSdAScZYOGxZtSGD 7bSQ==
+X-Gm-Message-State: AHQUAubUl9jDmDmWN1w5DguwfmEQn0IyMvHnqSYm0cggd7y79FbEKAFh pZuF7LVEOEO0GXVHFEyER+0L51pi
+X-Google-Smtp-Source: AHgI3Ibn6trcUJv0Ce3z/IdewuqsYppJ5omIyLYvGQzLAEtF99jE/z99Dsi0Zy6/Emj1bRq/FzDJdw==
+X-Received: by 2002:a0c:8971:: with SMTP id 46mr11193183qvq.224.1550330360704; Sat, 16 Feb 2019 07:19:20 -0800 (PST)
+Received: from [192.168.1.205] (otwaon1067w-lp130-03-174-88-150-223.dsl.bell.ca. [174.88.150.223]) by smtp.gmail.com with ESMTPSA id s49sm363782qtk.7.2019.02.16.07.19.19 for <test@hutzbot-development.rangefindr.ca> (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128); Sat, 16 Feb 2019 07:19:20 -0800 (PST)
+From: Chris Wise <chriswise71@gmail.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_4E6E34BD-1124-460C-8468-216EC435D85E"
+Mime-Version: 1.0 (Mac OS X Mail 12.2 \(3445.102.3\))
+Subject: Re: Start a conversation
+Date: Sat, 16 Feb 2019 10:19:19 -0500
+References: <9DEeFvOXR6m0i0EjClnGiA@ismtpd0050p1iad1.sendgrid.net>
+To: test@hutzbot-development.rangefindr.ca
+In-Reply-To: <9DEeFvOXR6m0i0EjClnGiA@ismtpd0050p1iad1.sendgrid.net>
+Message-Id: <92E33917-34FE-4E7E-836E-4E400EFE4A47@gmail.com>
+X-Mailer: Apple Mail (2.3445.102.3)
+
+--xYzZY
+Content-Disposition: form-data; name="dkim"
+
+{@gmail.com : pass}
+--xYzZY
+Content-Disposition: form-data; name="to"
+
+test@hutzbot-development.rangefindr.ca
+--xYzZY
+Content-Disposition: form-data; name="html"
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; line-break: after-white-space;" class="">2<br class=""><div><br class=""><blockquote type="cite" class=""><div class="">On Feb 16, 2019, at 10:15 AM, <a href="mailto:test@hutzbot-development.rangefindr.ca" class="">test@hutzbot-development.rangefindr.ca</a> wrote:</div><br class="Apple-interchange-newline"><div class=""><div class=""><p class="">Welcome to Hutzbot. Currently I know about  <em class="">Sexual offences</em>. Would you like to know about the following?</p><hr class=""><p class="">Please make your selection: </p><br class=""><ol class=""><li class="">Information about the statutory provisions governing third-party records</li><li class="">The difference between production in sexual and non-sexual cases</li><li class="">What is and isn't a "record"</li><li class="">Dealing with records that are already in the hands of the defence</li><li class="">Crown practice and duties relating to third-party records</li><li class="">Waiver of privacy by the complainant or witness</li><li class="">The procedure for obtaining third-party records</li><li class="">Cross-examination at the preliminary hearing to lay a foundation for a third-party records application</li><li class="">Appeals</li></ol>
+<img src="https://u9448432.ct.sendgrid.net/wf/open?upn=Z8PkCPQAZUShqeTUEk-2FgAx92HcAmhXYjs4aJStIVBVZ8sKVhagNJe0ZpJrq-2BAbmDh5sNA5ut5Vv9q8nHbTXkBzOxDIoxHCq4nBcqf7AGKvvnPiTIu-2BQdBggCnN3-2B6xCjmiCLf-2BA66dxkFppwdJl950S-2FRkM33vUA0z2rLU8iIsPp-2FOYx1Hypgi0Otgwhoi2zifbDJ7OdLbDTpvEfm60kjeDNaa2s8ILFhZ4tJy-2F9umA-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;" class="">
+</div>
+</div></blockquote></div><br class=""></body></html>
+--xYzZY
+Content-Disposition: form-data; name="from"
+
+Chris Wise <chriswise71@gmail.com>
+--xYzZY
+Content-Disposition: form-data; name="text"
+
+2
+
+> On Feb 16, 2019, at 10:15 AM, test@hutzbot-development.rangefindr.ca wrote:
+> 
+> Welcome to Hutzbot. Currently I know about Sexual offences. Would you like to know about the following?
+> 
+> Please make your selection:
+> 
+> 
+> Information about the statutory provisions governing third-party records
+> The difference between production in sexual and non-sexual cases
+> What is and isn't a "record"
+> Dealing with records that are already in the hands of the defence
+> Crown practice and duties relating to third-party records
+> Waiver of privacy by the complainant or witness
+> The procedure for obtaining third-party records
+> Cross-examination at the preliminary hearing to lay a foundation for a third-party records application
+> Appeals
+> 
+
+
+--xYzZY
+Content-Disposition: form-data; name="sender_ip"
+
+209.85.160.180
+--xYzZY
+Content-Disposition: form-data; name="spam_report"
+
+Spam detection software, running on the system "mx0058p1mdw1.sendgrid.net", has
+identified this incoming email as possible spam.  The original message
+has been attached to this so you can view it (if it isn't spam) or label
+similar future email.  If you have any questions, see
+@@CONTACT_ADDRESS@@ for details.
+
+Content preview:  2 > On Feb 16, 2019, at 10:15 AM, > > Welcome to Hutzbot.
+  Currently I know about Sexual offences. Would you like to know about the following?
+   > > Please make your selection: > > > Information about the statutory provisions
+   governing third-party records > The difference between production in sexual
+   and non-sexual cases > What is and isn't a "record" > Dealing with records
+   that are already in the hands of the defence > Crown practice and duties
+  relating to third-party records > Waiver of privacy by the complainant or
+  witness > The procedure for obtaining third-party records > Cross-examination
+   at the preliminary hearing to lay a foundation for a third-party records
+  application > Appeals > [...] 
+
+Content analysis details:   (1.3 points, 5.0 required)
+
+ pts rule name              description
+---- ---------------------- --------------------------------------------------
+ 0.0 FREEMAIL_FROM          Sender email is freemail (chriswise71[at]gmail.com)
+ 1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of words
+ 0.0 HTML_MESSAGE           BODY: HTML included in message
+ 0.0 T_MIME_NO_TEXT         No text body parts
+ 0.0 T_TO_NO_BRKTS_FREEMAIL T_TO_NO_BRKTS_FREEMAIL
+
+
+--xYzZY
+Content-Disposition: form-data; name="envelope"
+
+{"to":["test@hutzbot-development.rangefindr.ca"],"from":"chriswise71@gmail.com"}
+--xYzZY
+Content-Disposition: form-data; name="attachments"
+
+0
+--xYzZY
+Content-Disposition: form-data; name="subject"
+
+Re: Start a conversation
+--xYzZY
+Content-Disposition: form-data; name="spam_score"
+
+1.304
+--xYzZY
+Content-Disposition: form-data; name="charsets"
+
+{"to":"UTF-8","html":"us-ascii","subject":"UTF-8","from":"UTF-8","text":"us-ascii"}
+--xYzZY
+Content-Disposition: form-data; name="SPF"
+
+pass
+--xYzZY--
